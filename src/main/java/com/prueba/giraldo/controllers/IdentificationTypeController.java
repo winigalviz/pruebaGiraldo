@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "identification_tipe")
+@RequestMapping(value = "identification_type")
 public class IdentificationTypeController {
     private final IdentificationTypeRepository repository;
 
